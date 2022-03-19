@@ -19,12 +19,16 @@
 }
 
 .logo {
-  height: 32px;
+
   width: 183px;
 }
 
 .logo_place_header {
   position: absolute;
+  background: url(../images/logo_place_header.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 32px;
   top:  30px;
   left: 64px;
 }
